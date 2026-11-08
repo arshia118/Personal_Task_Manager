@@ -1,6 +1,6 @@
 # Personal_Task_manager
 A silmle Task Manager bulit with Python 
-\
+
 ![Static Badge](https://img.shields.io/badge/python-blue?logo=python&logoColor=yellow)
 
 
@@ -9,6 +9,13 @@ A silmle Task Manager bulit with Python
 - Save tasks
 - Load save Task
 - Admin mod 
+- set task prioriy
+
+## Task priority 
+erach task can have one of this priority levels
+- low
+- medium
+- high
 
 ## Requirements 
 - Python 
@@ -52,7 +59,7 @@ Replace `admin_pass = your_password_here ` with your own admin password
 ## Run the program 
 run the main file 
 ```bash
-python main.py
+Python main.py
 ```
 ## Screenshot
 ![personal_task_manager_screenshot](images/scrennshot.png)
