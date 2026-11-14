@@ -1,5 +1,5 @@
 # Personal_Task_manager
-A silmle Task Manager bulit with Python 
+A silmle Task Manager bulit with Python for learning git and git hub 
 
 ![Static Badge](https://img.shields.io/badge/python-blue?logo=python&logoColor=yellow)
 
