@@ -6,8 +6,8 @@ load_dotenv()
 
 
 name = input("enter your name: ")
-print("welcome", name)
-admin_mod = input("do you want t enter admin mod? yes/no: ")
+print("hello", name, "welcome to your personal task manager")
+admin_mod = input("do you want to enter admin mode? yes/no: ")
 if admin_mod == "yes":
     password = input("enter admin password : ")
     if password == os.getenv("admin_pass"):
