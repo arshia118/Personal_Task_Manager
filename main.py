@@ -6,8 +6,11 @@ load_dotenv()
 
 
 name = input("enter your name: ")
+admin_mod = input("do you want to enter admin mode? yes/no: ")
+
 print("welcome back", name)
 admin_mod = input("do you want t enter admin mod? yes/no: ")
+
 if admin_mod == "yes":
     password = input("enter admin password : ")
     if password == os.getenv("admin_pass"):
